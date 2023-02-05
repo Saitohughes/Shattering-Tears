@@ -1,0 +1,232 @@
+<!DOCTYPE spritesheets>
+<spritesheets>
+ <spritesheet resolution="ipad" width="1024" height="256" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="537,0,178,228" offsetX="403.992" offsetY="115.973" name="35-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="336,0,201,218" offsetX="407.209" offsetY="-64.2906" name="37-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="165,0,171,171" offsetX="382.607" offsetY="172.625" name="38-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="83,0,82,155" offsetX="371.071" offsetY="-166.668" name="34-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="0,0,83,148" offsetX="445.397" offsetY="-169.523" name="36-Pata2-1.png" scaleX="0.0234375"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" width="2048" height="512" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1028,0,345,445" offsetX="807.984" offsetY="231.947" name="35-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="637,0,391,424" offsetX="814.418" offsetY="-128.581" name="37-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="307,0,330,331" offsetX="765.214" offsetY="345.25" name="38-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="154,0,153,299" offsetX="742.143" offsetY="-333.335" name="34-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="0,0,154,285" offsetX="890.794" offsetY="-339.046" name="36-Pata2-1.png" scaleX="0.0117188"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" width="512" height="128" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.05" angleDegrees="0" rect="276,0,90,113" offsetX="189.371" offsetY="54.3625" name="35-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="176,0,100,108" offsetX="190.879" offsetY="-30.1362" name="37-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="90,0,86,86" offsetX="179.347" offsetY="80.918" name="38-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="45,0,45,79" offsetX="173.94" offsetY="-78.1254" name="34-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,45,76" offsetX="208.78" offsetY="-79.464" name="36-Pata2-1.png" scaleX="0.05"/>
+ </spritesheet>
+ <spritesheet resolution="iphone-retina" width="1024" height="256" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone-retina.png">
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="591,0,197,252" offsetX="448.179" offsetY="128.658" name="35-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="369,0,222,240" offsetX="451.748" offsetY="-71.3224" name="37-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="181,0,188,189" offsetX="424.455" offsetY="191.506" name="38-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="91,0,90,171" offsetX="411.657" offsetY="-184.897" name="34-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="0,0,91,163" offsetX="494.112" offsetY="-188.065" name="36-Pata2-1.png" scaleX="0.0211268"/>
+ </spritesheet>
+ <spritesheet resolution="ipad" width="2048" height="256" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1477,0,466,235" offsetX="-783.634" offsetY="-59.9838" name="2-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1299,0,178,228" offsetX="403.992" offsetY="115.973" name="35-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1098,0,201,218" offsetX="407.209" offsetY="-64.2906" name="37-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="920,0,178,199" offsetX="-673.192" offsetY="106.925" name="9-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="730,0,190,191" offsetX="-650.957" offsetY="151.354" name="5-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="632,0,98,183" offsetX="-692.143" offsetY="102.106" name="6-Nariz-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="461,0,171,171" offsetX="382.607" offsetY="172.625" name="38-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="379,0,82,155" offsetX="371.071" offsetY="-166.668" name="34-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="296,0,83,148" offsetX="-608.542" offsetY="-170.27" name="3-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="58,0,238,119" offsetX="-742.612" offsetY="152.592" name="8-OjoDerecha-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="0,0,58,58" offsetX="-740.195" offsetY="117.848" name="7-OjoIzquierdo-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="379,0,82,155" offsetX="-684.31" offsetY="-168.208" name="4-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="296,0,83,148" offsetX="445.397" offsetY="-169.523" name="36-Pata2-1.png" scaleX="0.0234375"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" width="2048" height="1024" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1081,370,921,458" offsetX="-1567.27" offsetY="-119.968" name="2-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="736,370,345,445" offsetX="807.984" offsetY="231.947" name="35-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="345,370,391,424" offsetX="814.418" offsetY="-128.581" name="37-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="0,370,345,387" offsetX="-1346.38" offsetY="213.851" name="9-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1634,0,368,370" offsetX="-1301.91" offsetY="302.708" name="5-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1449,0,185,354" offsetX="-1384.29" offsetY="204.212" name="6-Nariz-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1119,0,330,331" offsetX="765.214" offsetY="345.25" name="38-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="966,0,153,299" offsetX="742.143" offsetY="-333.335" name="34-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="812,0,154,285" offsetX="-1217.08" offsetY="-340.54" name="3-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="347,0,465,226" offsetX="-1485.22" offsetY="305.184" name="8-OjoDerecha-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="243,0,104,104" offsetX="-1480.39" offsetY="235.696" name="7-OjoIzquierdo-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="966,0,153,299" offsetX="-1368.62" offsetY="-336.416" name="4-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="812,0,154,285" offsetX="890.794" offsetY="-339.046" name="36-Pata2-1.png" scaleX="0.0117188"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" width="1024" height="128" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.05" angleDegrees="0" rect="754,0,225,116" offsetX="-367.329" offsetY="-28.1174" name="2-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="664,0,90,113" offsetX="189.371" offsetY="54.3625" name="35-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="564,0,100,108" offsetX="190.879" offsetY="-30.1362" name="37-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="474,0,90,99" offsetX="-315.559" offsetY="50.1213" name="9-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="379,0,95,95" offsetX="-305.136" offsetY="70.9472" name="5-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="327,0,52,92" offsetX="-324.442" offsetY="47.8622" name="6-Nariz-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="241,0,86,86" offsetX="179.347" offsetY="80.918" name="38-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="196,0,45,79" offsetX="173.94" offsetY="-78.1254" name="34-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="151,0,45,76" offsetX="-285.254" offsetY="-79.814" name="3-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="33,0,118,62" offsetX="-348.1" offsetY="71.5276" name="8-OjoDerecha-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,33,33" offsetX="-346.966" offsetY="55.2413" name="7-OjoIzquierdo-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="196,0,45,79" offsetX="-320.77" offsetY="-78.8474" name="4-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="151,0,45,76" offsetX="208.78" offsetY="-79.464" name="36-Pata2-1.png" scaleX="0.05"/>
+ </spritesheet>
+ <spritesheet resolution="iphone-retina" width="2048" height="512" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone-retina.png">
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1507,220,516,259" offsetX="-869.344" offsetY="-66.5446" name="2-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1272,220,235,259" offsetX="-728.627" offsetY="-66.5446" name="18-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1037,220,235,259" offsetX="-147.485" offsetY="-69.0107" name="17-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="840,220,197,252" offsetX="448.179" offsetY="128.658" name="35-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="618,220,222,243" offsetX="-439.602" offsetY="-81.048" name="27-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="396,220,222,240" offsetX="451.748" offsetY="-71.3224" name="37-Batamanta-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="197,220,199,239" offsetX="-131.988" offsetY="129.318" name="13-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="0,220,197,236" offsetX="-442.232" offsetY="122.82" name="32-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1826,0,197,220" offsetX="-746.822" offsetY="118.62" name="25-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1708,0,118,213" offsetX="-441.213" offsetY="122.253" name="30-Nariz-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1499,0,209,210" offsetX="-722.156" offsetY="167.908" name="21-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1393,0,106,203" offsetX="-103.245" offsetY="114.287" name="15-Nariz-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1285,0,108,202" offsetX="-767.846" offsetY="113.274" name="22-Nariz-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1097,0,188,189" offsetX="424.455" offsetY="191.506" name="38-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1007,0,90,171" offsetX="-198.45" offsetY="-190.814" name="14-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="812,0,195,170" offsetX="-412.702" offsetY="187.327" name="33-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="721,0,91,163" offsetX="-117.354" offsetY="-191.07" name="11-Pata2-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="535,0,186,161" offsetX="-82.5091" offsetY="192.031" name="16-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="272,0,263,131" offsetX="-823.836" offsetY="169.282" name="24-OjoDerecha-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="203,0,69,65" offsetX="-56.4717" offsetY="131.533" name="12-OjoDerecha-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="140,0,63,63" offsetX="-150.767" offsetY="135.963" name="10-OjoIzquierdo-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1826,0,197,220" offsetX="-746.822" offsetY="118.62" name="9-Cabeza-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1285,0,108,202" offsetX="-767.846" offsetY="113.274" name="6-Nariz-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1007,0,90,171" offsetX="-484.102" offsetY="-190.406" name="28-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1007,0,90,171" offsetX="-759.156" offsetY="-186.606" name="4-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="721,0,91,163" offsetX="-675.102" offsetY="-188.893" name="3-Pata2-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="721,0,91,163" offsetX="494.112" offsetY="-188.065" name="36-Pata2-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="203,0,69,65" offsetX="-392.183" offsetY="130.728" name="29-OjoDerecho-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="140,0,63,63" offsetX="-821.154" offsetY="130.738" name="23-OjoIzquierdo-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1499,0,209,210" offsetX="-722.156" offsetY="167.908" name="5-Cabello-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1007,0,90,171" offsetX="411.657" offsetY="-184.897" name="34-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="721,0,91,163" offsetX="-400.095" offsetY="-196.116" name="26-Pata2-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="140,0,63,63" offsetX="-492.736" offsetY="132.153" name="31-OjoIzquierdo-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="1007,0,90,171" offsetX="-759.156" offsetY="-186.606" name="20-Pata1-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="272,0,263,131" offsetX="-823.836" offsetY="169.282" name="8-OjoDerecha-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="721,0,91,163" offsetX="-675.102" offsetY="-188.893" name="19-Pata2-1.png" scaleX="0.0211268"/>
+  <sprite scaleY="0.0211268" angleDegrees="0" rect="140,0,63,63" offsetX="-821.154" offsetY="130.738" name="7-OjoIzquierdo-1.png" scaleX="0.0211268"/>
+ </spritesheet>
+ <spritesheet resolution="ipad" width="2048" height="512" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1543,193,466,235" offsetX="-783.634" offsetY="-59.9838" name="2-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1330,193,213,235" offsetX="-656.79" offsetY="-59.9838" name="18-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1117,193,213,235" offsetX="-132.944" offsetY="-62.2068" name="17-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="939,193,178,228" offsetX="403.992" offsetY="115.973" name="35-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="738,193,201,220" offsetX="-396.261" offsetY="-73.0573" name="27-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="537,193,201,218" offsetX="407.209" offsetY="-64.2906" name="37-Batamanta-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="356,193,181,217" offsetX="-118.975" offsetY="116.569" name="13-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="178,193,178,214" offsetX="-398.632" offsetY="110.711" name="32-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="0,193,178,199" offsetX="-673.192" offsetY="106.925" name="25-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1902,0,107,193" offsetX="-397.713" offsetY="110.2" name="30-Nariz-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1712,0,190,191" offsetX="-650.957" offsetY="151.354" name="21-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1615,0,97,184" offsetX="-93.0658" offsetY="103.019" name="15-Nariz-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1517,0,98,183" offsetX="-692.143" offsetY="102.106" name="22-Nariz-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1346,0,171,171" offsetX="382.607" offsetY="172.625" name="38-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1169,0,177,155" offsetX="-372.013" offsetY="168.858" name="33-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1087,0,82,155" offsetX="-178.885" offsetY="-172.001" name="14-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1004,0,83,148" offsetX="-105.784" offsetY="-172.233" name="11-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="835,0,169,146" offsetX="-74.3744" offsetY="173.099" name="16-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="597,0,238,119" offsetX="-742.612" offsetY="152.592" name="24-OjoDerecha-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="534,0,63,60" offsetX="-50.9041" offsetY="118.565" name="12-OjoDerecha-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="476,0,58,58" offsetX="-135.902" offsetY="122.558" name="10-OjoIzquierdo-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="0,193,178,199" offsetX="-673.192" offsetY="106.925" name="9-Cabeza-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1517,0,98,183" offsetX="-692.143" offsetY="102.106" name="6-Nariz-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1087,0,82,155" offsetX="-436.374" offsetY="-171.634" name="28-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1087,0,82,155" offsetX="-684.31" offsetY="-168.208" name="4-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1004,0,83,148" offsetX="-608.542" offsetY="-170.27" name="3-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1004,0,83,148" offsetX="445.397" offsetY="-169.523" name="36-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="534,0,63,60" offsetX="-353.517" offsetY="117.839" name="29-OjoDerecho-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="476,0,58,58" offsetX="-740.195" offsetY="117.848" name="23-OjoIzquierdo-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1712,0,190,191" offsetX="-650.957" offsetY="151.354" name="5-Cabello-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1087,0,82,155" offsetX="371.071" offsetY="-166.668" name="34-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1004,0,83,148" offsetX="-360.649" offsetY="-176.781" name="26-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="476,0,58,58" offsetX="-444.156" offsetY="119.124" name="31-OjoIzquierdo-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1087,0,82,155" offsetX="-684.31" offsetY="-168.208" name="20-Pata1-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="597,0,238,119" offsetX="-742.612" offsetY="152.592" name="8-OjoDerecha-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="1004,0,83,148" offsetX="-608.542" offsetY="-170.27" name="19-Pata2-1.png" scaleX="0.0234375"/>
+  <sprite scaleY="0.0234375" angleDegrees="0" rect="476,0,58,58" offsetX="-740.195" offsetY="117.848" name="7-OjoIzquierdo-1.png" scaleX="0.0234375"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" width="2048" height="2048" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1083,1113,921,458" offsetX="-1567.27" offsetY="-119.968" name="2-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="669,1113,414,458" offsetX="-1313.58" offsetY="-119.968" name="18-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="255,1113,414,458" offsetX="-265.888" offsetY="-124.414" name="17-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="52,1113,203,375" offsetX="-795.426" offsetY="220.399" name="30-Nariz-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1659,668,345,445" offsetX="807.984" offsetY="231.947" name="35-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1268,668,391,428" offsetX="-792.523" offsetY="-146.115" name="27-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="877,668,391,424" offsetX="814.418" offsetY="-128.581" name="37-Batamanta-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="527,668,350,422" offsetX="-237.95" offsetY="233.137" name="13-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="182,668,345,416" offsetX="-797.264" offsetY="221.423" name="32-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="0,668,182,357" offsetX="-186.132" offsetY="206.038" name="15-Nariz-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1659,281,345,387" offsetX="-1346.38" offsetY="213.851" name="25-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1291,281,368,370" offsetX="-1301.91" offsetY="302.708" name="21-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1106,281,185,354" offsetX="-1384.29" offsetY="204.212" name="22-Nariz-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="776,281,330,331" offsetX="765.214" offsetY="345.25" name="38-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="623,281,153,299" offsetX="-357.77" offsetY="-344.002" name="14-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="281,281,342,298" offsetX="-744.027" offsetY="337.716" name="33-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="127,281,154,285" offsetX="-211.568" offsetY="-344.465" name="11-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="13,281,114,108" offsetX="-101.808" offsetY="237.129" name="12-OjoDerecha-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1678,0,326,281" offsetX="-148.749" offsetY="346.197" name="16-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1213,0,465,226" offsetX="-1485.22" offsetY="305.184" name="24-OjoDerecha-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1109,0,104,104" offsetX="-271.805" offsetY="245.117" name="10-OjoIzquierdo-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1659,281,345,387" offsetX="-1346.38" offsetY="213.851" name="9-Cabeza-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1106,281,185,354" offsetX="-1384.29" offsetY="204.212" name="6-Nariz-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="623,281,153,299" offsetX="-872.748" offsetY="-343.268" name="28-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="623,281,153,299" offsetX="-1368.62" offsetY="-336.416" name="4-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="127,281,154,285" offsetX="-1217.08" offsetY="-340.54" name="3-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="127,281,154,285" offsetX="890.794" offsetY="-339.046" name="36-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="13,281,114,108" offsetX="-707.035" offsetY="235.678" name="29-OjoDerecho-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1109,0,104,104" offsetX="-1480.39" offsetY="235.696" name="23-OjoIzquierdo-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1291,281,368,370" offsetX="-1301.91" offsetY="302.708" name="5-Cabello-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="623,281,153,299" offsetX="742.143" offsetY="-333.335" name="34-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="127,281,154,285" offsetX="-721.298" offsetY="-353.562" name="26-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1109,0,104,104" offsetX="-888.313" offsetY="238.248" name="31-OjoIzquierdo-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="623,281,153,299" offsetX="-1368.62" offsetY="-336.416" name="20-Pata1-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1213,0,465,226" offsetX="-1485.22" offsetY="305.184" name="8-OjoDerecha-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="127,281,154,285" offsetX="-1217.08" offsetY="-340.54" name="19-Pata2-1.png" scaleX="0.0117188"/>
+  <sprite scaleY="0.0117188" angleDegrees="0" rect="1109,0,104,104" offsetX="-1480.39" offsetY="235.696" name="7-OjoIzquierdo-1.png" scaleX="0.0117188"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" width="2048" height="128" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.05" angleDegrees="0" rect="1564,0,225,116" offsetX="-367.329" offsetY="-28.1174" name="2-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="1458,0,106,116" offsetX="-307.87" offsetY="-28.1174" name="18-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="1352,0,106,116" offsetX="-62.3176" offsetY="-29.1594" name="17-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="1262,0,90,113" offsetX="189.371" offsetY="54.3625" name="35-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="1162,0,100,109" offsetX="-185.747" offsetY="-34.2456" name="27-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="1062,0,100,108" offsetX="190.879" offsetY="-30.1362" name="37-Batamanta-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="971,0,91,108" offsetX="-55.7694" offsetY="54.6415" name="13-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="881,0,90,106" offsetX="-186.859" offsetY="51.8959" name="32-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="791,0,90,99" offsetX="-315.559" offsetY="50.1213" name="25-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="735,0,56,97" offsetX="-186.428" offsetY="51.6561" name="30-Nariz-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="640,0,95,95" offsetX="-305.136" offsetY="70.9472" name="21-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="588,0,52,92" offsetX="-324.442" offsetY="47.8622" name="22-Nariz-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="537,0,51,92" offsetX="-43.6246" offsetY="48.2901" name="15-Nariz-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="451,0,86,86" offsetX="179.347" offsetY="80.918" name="38-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="362,0,89,79" offsetX="-174.381" offsetY="79.1521" name="33-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="317,0,45,79" offsetX="-83.8523" offsetY="-80.6254" name="14-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="272,0,45,76" offsetX="-49.5862" offsetY="-80.734" name="11-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="187,0,85,75" offsetX="-34.863" offsetY="81.14" name="16-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="69,0,118,62" offsetX="-348.1" offsetY="71.5276" name="24-OjoDerecha-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="33,0,36,34" offsetX="-23.8613" offsetY="55.5771" name="12-OjoDerecha-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,33,33" offsetX="-63.7043" offsetY="57.4493" name="10-OjoIzquierdo-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="791,0,90,99" offsetX="-315.559" offsetY="50.1213" name="9-Cabeza-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="588,0,52,92" offsetX="-324.442" offsetY="47.8622" name="6-Nariz-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="317,0,45,79" offsetX="-204.55" offsetY="-80.4534" name="28-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="317,0,45,79" offsetX="-320.77" offsetY="-78.8474" name="4-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="272,0,45,76" offsetX="-285.254" offsetY="-79.814" name="3-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="272,0,45,76" offsetX="208.78" offsetY="-79.464" name="36-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="33,0,36,34" offsetX="-165.711" offsetY="55.2371" name="29-OjoDerecho-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,33,33" offsetX="-346.966" offsetY="55.2413" name="23-OjoIzquierdo-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="640,0,95,95" offsetX="-305.136" offsetY="70.9472" name="5-Cabello-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="317,0,45,79" offsetX="173.94" offsetY="-78.1254" name="34-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="272,0,45,76" offsetX="-169.054" offsetY="-82.866" name="26-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,33,33" offsetX="-208.198" offsetY="55.8393" name="31-OjoIzquierdo-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="317,0,45,79" offsetX="-320.77" offsetY="-78.8474" name="20-Pata1-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="69,0,118,62" offsetX="-348.1" offsetY="71.5276" name="8-OjoDerecha-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="272,0,45,76" offsetX="-285.254" offsetY="-79.814" name="19-Pata2-1.png" scaleX="0.05"/>
+  <sprite scaleY="0.05" angleDegrees="0" rect="0,0,33,33" offsetX="-346.966" offsetY="55.2413" name="7-OjoIzquierdo-1.png" scaleX="0.05"/>
+ </spritesheet>
+</spritesheets>

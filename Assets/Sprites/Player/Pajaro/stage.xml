@@ -1,0 +1,54 @@
+<stages>
+ <stage name="Pajaro_WalkBackwards">
+  <node groupId="0" skinId="0" name="Pajaro_tracero_Batamanta" drwId="1"/>
+  <node groupId="0" skinId="0" name="Pajaro_tracero_Cabeza" drwId="2"/>
+  <node groupId="0" skinId="0" name="Pajaro_tracero_Cabello" drwId="3"/>
+  <node groupId="0" skinId="0" name="Pajaro_tracero_Pata1" drwId="4"/>
+  <node groupId="0" skinId="0" name="Pajaro_tracero_Pata2" drwId="5"/>
+  <play drawingAnimation="WalkBackwards_Top" name="Top" skeleton="Top" animation="WalkBackwards_Top"/>
+ </stage>
+ <stage name="Pajaro_WalkForward">
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Batamanta" drwId="1"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Cabeza" drwId="2"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Cabello" drwId="3"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Pata1" drwId="4"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Nariz" drwId="5"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_OjoIzquierdo" drwId="6"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_OjoDerecho" drwId="7"/>
+  <node groupId="0" skinId="0" name="Pajaro_frontal_Pata2" drwId="8"/>
+  <play drawingAnimation="WalkForward_Top" name="Top" skeleton="Top_2" animation="WalkForward_Top"/>
+ </stage>
+ <stage name="Pajaro_WalkRight">
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Batamanta" drwId="1"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Cabeza" drwId="2"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Cabello" drwId="3"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Nariz" drwId="4"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_OjoIzquierdo" drwId="5"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_OjoDerecha" drwId="6"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Pata1" drwId="7"/>
+  <node groupId="0" skinId="0" name="Pajaro_derecha_Pata2" drwId="8"/>
+  <play drawingAnimation="WalkRight_Top" name="Top" skeleton="Top_3" animation="WalkRight_Top"/>
+ </stage>
+ <stage name="Pajaro_Idle">
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Batamanta" drwId="1"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Cabeza" drwId="2"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Cabello" drwId="3"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Nariz" drwId="4"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_OjoIzquierdo" drwId="5"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_OjoDerecha" drwId="6"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Pata1" drwId="7"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Idle_Pata2" drwId="8"/>
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top_1" animation="Idle_Top"/>
+ </stage>
+ <stage name="Pajaro_WalkLeft">
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Batamanta" drwId="1"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Cabeza" drwId="2"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Cabello" drwId="3"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Nariz" drwId="4"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_OjoIzquierdo" drwId="5"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_OjoDerecha" drwId="6"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Pata1" drwId="7"/>
+  <node groupId="0" skinId="0" name="Pajaro_Izquierda_Pata2" drwId="8"/>
+  <play drawingAnimation="WalkLeft_Top" name="Top" skeleton="Top_4" animation="WalkLeft_Top"/>
+ </stage>
+</stages>
