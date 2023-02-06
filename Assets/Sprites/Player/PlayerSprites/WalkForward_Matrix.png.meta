@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: b24ff1cac120e02459afbb88d2201956
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkForward_Matrix_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4418.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6abaaa407ca0343802a658c4a1c877
+      internalID: -572620065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_1
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 4418.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3682db2d72bcb49bcee64328a8996e
+      internalID: -1861734379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_2
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 4418.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c830338e4ddc0438840778852db852
+      internalID: 1489281060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_3
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 4418.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db913080ab8185246ab97ce22343cf6b
+      internalID: 1837661023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_4
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 4418.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211303ffc0720d841a3f0869d19cb47b
+      internalID: -33594786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3314.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7cddd7ca7158548a62d723fca7c223
+      internalID: -683633449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_6
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3314.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5dd1a396c86dd4c8150c300824b1a9
+      internalID: -2111918601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_7
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 3314.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b366644c76ed049898ce7ae7629f6c
+      internalID: -2080849242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_8
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 3314.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999d70431cff8e42900a5e28c6d6022
+      internalID: 14029009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_9
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 3314.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ce14b16ebd46e4e93850021f48a5b7
+      internalID: 112172293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2210.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc3c24b723590c45b8fa54f8340440a
+      internalID: 2138489684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_11
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2210.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512db14522f73004188a7becc6d7ba22
+      internalID: 1851442546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_12
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2210.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad155bd006267e64b8b07abc20c77b60
+      internalID: 409268943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_13
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2210.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c87a7039eb9bc4ea61590c1f6374b9
+      internalID: -477940503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_14
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 2210.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2472b154b2c7446a2684adef8c4fd4
+      internalID: -841177755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1106.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae797a965f9c754c9a86581c573f0e2
+      internalID: 457915302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_16
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1106.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5262767ab2412a4da510dc4e8cde1bb
+      internalID: -192421789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_17
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1106.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0018e83fd69e6d4490d5af631b5870c
+      internalID: 2017707610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_18
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 1106.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6152d1f077b2b48458a3de16bc83572e
+      internalID: -1119783717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_19
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 1106.4
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d71655945814bf448fc9e9a027d0010
+      internalID: -733251995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.4000244
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75226679caba5bc488ce080dfccfd058
+      internalID: 2055412792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_21
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2.4000244
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e18d8364cb00fb4e844d45febbac06a
+      internalID: -1044797087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_22
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2.4000244
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0e3b3192a240d47a24ee1c875538ce
+      internalID: 581116497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_23
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2.4000244
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e5c46496017434d9302dbd3a48a4c5
+      internalID: 1760886380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkForward_Matrix_24
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 2.4000244
+        width: 1055.4
+        height: 1104.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe160045da4cbd449a400935e1debe6
+      internalID: -1629372752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d1416756485750844a91ff0a12c6d711
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WalkForward_Matrix_18: -1119783717
+      WalkForward_Matrix_1: -1861734379
+      WalkForward_Matrix_0: -572620065
+      WalkForward_Matrix_11: 1851442546
+      WalkForward_Matrix_12: 409268943
+      WalkForward_Matrix_10: 2138489684
+      WalkForward_Matrix_6: -2111918601
+      WalkForward_Matrix_14: -841177755
+      WalkForward_Matrix_15: 457915302
+      WalkForward_Matrix_5: -683633449
+      WalkForward_Matrix_2: 1489281060
+      WalkForward_Matrix_21: -1044797087
+      WalkForward_Matrix_17: 2017707610
+      WalkForward_Matrix_23: 1760886380
+      WalkForward_Matrix_4: -33594786
+      WalkForward_Matrix_13: -477940503
+      WalkForward_Matrix_16: -192421789
+      WalkForward_Matrix_8: 14029009
+      WalkForward_Matrix_19: -733251995
+      WalkForward_Matrix_20: 2055412792
+      WalkForward_Matrix_22: 581116497
+      WalkForward_Matrix_24: -1629372752
+      WalkForward_Matrix_3: 1837661023
+      WalkForward_Matrix_7: -2080849242
+      WalkForward_Matrix_9: 112172293
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

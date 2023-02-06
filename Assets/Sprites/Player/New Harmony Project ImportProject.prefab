@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 1612413354054726018}
   - component: {fileID: 8545045089731203798}
   - component: {fileID: 6800850622831413492}
-  - component: {fileID: 3370367329207131478}
-  - component: {fileID: 5656804888732039391}
   m_Layer: 0
   m_Name: New Harmony Project ImportProject
   m_TagString: Untagged
@@ -42,7 +40,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8692010020843174217}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -55,7 +53,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 459683e483e91c84b9e54f31e0fef25b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,72 +83,3 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8692010020843174217}
   m_Mesh: {fileID: 0}
---- !u!114 &3370367329207131478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8692010020843174217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc1a1e06bb8d4eb88f4e236d92662c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Project: {fileID: 11400000, guid: 114bd5e9ed7b0e94e94e8eea2d2592d3, type: 2}
-  ResolutionIndex: 0
-  Material: {fileID: 2100000, guid: 459683e483e91c84b9e54f31e0fef25b, type: 2}
-  Color: {r: 1, g: 1, b: 1, a: 1}
-  DiscretizationStep: 4
-  CurrentClipIndex: 1
-  CurrentFrame: 1
-  AnimationSettings:
-    FrameRate: 30
-    Stepped: 1
-    StripPrefix: 
-  GroupSkins:
-    _count: 0
-    _item0:
-      GroupId: 0
-      SkinId: 0
-    _item1:
-      GroupId: 0
-      SkinId: 0
-    _item2:
-      GroupId: 0
-      SkinId: 0
-    _item3:
-      GroupId: 0
-      SkinId: 0
-    _item4:
-      GroupId: 0
-      SkinId: 0
-    _item5:
-      GroupId: 0
-      SkinId: 0
-    _item6:
-      GroupId: 0
-      SkinId: 0
-    _item7:
-      GroupId: 0
-      SkinId: 0
---- !u!95 &5656804888732039391
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8692010020843174217}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b2f65491be052cb479fa5598a9a45fa8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
