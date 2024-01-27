@@ -60,7 +60,7 @@ public class CombinedAnimation : MonoBehaviour
 
             // Scale up the text without rotation for the last count
             countdownText.transform.DOScale(Vector3.one * 1.2f, 0.5f).SetEase(Ease.OutQuint);
-            countdownText.DOFade(0f, 1f) // Fade out the text
+            countdownText.DOFade(0f, 0.5f) // Fade out the text
                 .OnComplete(() => ResetScale());
         }
     }
