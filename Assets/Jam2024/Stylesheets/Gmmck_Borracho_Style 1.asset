@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Gmmck_Borracho_Style 1
   m_EditorClassIdentifier: 
   styles:
-  - styleTag: Borracho
-    openingTag: <incr a=0.7><shake a=0.5>
-    closingTag: '</shake>  '
+  - styleTag: borracho
+    openingTag: <wiggle a=0.05.><swing a=0.5>
+    closingTag: </wiggle></swing>

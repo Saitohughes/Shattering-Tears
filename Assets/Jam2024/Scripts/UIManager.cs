@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
         Disco
     }
     public Gimmicks currentGimmick;
-    public GameObject[] gimmicks;
+    public GameObject[] gimmickObjects;
     public GameObject countdown;
     //public TMP_Text scoreText;
 
@@ -31,9 +31,11 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.G)) {
+            GimmickPlayer();
+        }
     }
     public void StartCountdown(bool isElementActive)
     {
@@ -47,16 +49,16 @@ public class UIManager : MonoBehaviour
         switch (currentGimmick)
         {
             case Gimmicks.Default:
-                Debug.Log("Holi");
+                gimmickObjects[0].SetActive(true);
                 break;
             case Gimmicks.Hielo:
-                Debug.Log("holi2");
+                gimmickObjects[1].SetActive(true);
                 break;
             case Gimmicks.Borracho:
-                Debug.Log("holi3");
+                Debug.Log("3");
                 break;
             case Gimmicks.Disco:
-                Debug.Log("Holi4");
+                Debug.Log("4");
                 break;
         }
 
