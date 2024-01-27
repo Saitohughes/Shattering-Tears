@@ -7,11 +7,11 @@ public class UIManager : MonoBehaviour
 {
     public enum Gimmicks
     {
-        Default,
         Hielo,
         Borracho,
         Disco
     }
+
     public Gimmicks currentGimmick;
     public GameObject[] gimmickObjects;
     public GameObject countdown;
@@ -31,36 +31,50 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        RandomlyChooseGimmick();
+    }
+
     private void Update()
     {
-        if(Input.GetKeyUp(KeyCode.G)) {
+        if (Input.GetKeyUp(KeyCode.G))
+        {
             GimmickPlayer();
         }
     }
+
     public void StartCountdown(bool isElementActive)
     {
-
         Instantiate(countdown);
-
     }
 
     public void GimmickPlayer()
     {
         switch (currentGimmick)
         {
-            case Gimmicks.Default:
-                gimmickObjects[0].SetActive(true);
-                break;
             case Gimmicks.Hielo:
-                gimmickObjects[1].SetActive(true);
+                gimmickObjects[0].SetActive(true);
+                Debug.Log("SE LLAMA");
                 break;
             case Gimmicks.Borracho:
-                Debug.Log("3");
+                Debug.Log("SE LLAMA");
+                gimmickObjects[1].SetActive(true);
                 break;
             case Gimmicks.Disco:
-                Debug.Log("4");
+                Debug.Log("SE LLAMA");
+                gimmickObjects[2].SetActive(true);
                 break;
         }
+    }
 
+    private void RandomlyChooseGimmick()
+    {
+        // Get all values from the Gimmicks enum
+        Gimmicks[] gimmickValues = (Gimmicks[])System.Enum.GetValues(typeof(Gimmicks));
+
+        int randomIndex = Random.Range(0, gimmickValues.Length);
+
+        currentGimmick = gimmickValues[randomIndex];
     }
 }

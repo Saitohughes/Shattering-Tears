@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7ecee5706a4d10b0a63a2233d5c131, type: 3}
-  m_Name: Gmmck_Hielo_Style
+  m_Name: Gmmck_Borracho_Style
   m_EditorClassIdentifier: 
   styles:
-  - styleTag: hielo
-    openingTag: <incr a=0.7><shake a=0.5>
-    closingTag: </shake></incr>
+  - styleTag: borracho
+    openingTag: <incr a=0.1><wiggle a=0.05.><swing a=0.5>
+    closingTag: </wiggle></swing></incr>

@@ -4,11 +4,14 @@ using UnityEngine;
 using TMPro;
 using DG.Tweening;
 using Cinemachine;
+using UnityEngine.Events;
 
 public class CombinedAnimation : MonoBehaviour
 {
     public TMP_Text countdownText;
     public CinemachineVirtualCamera virtualCamera;
+
+    public UnityEvent uEvent;
 
     void Start()
     {
@@ -56,12 +59,12 @@ public class CombinedAnimation : MonoBehaviour
         else
         {
             // Countdown is complete
-            countdownText.text = "Hot Potato!!!";
+            countdownText.text = "GO!!!";
 
             // Scale up the text without rotation for the last count
             countdownText.transform.DOScale(Vector3.one * 1.2f, 0.5f).SetEase(Ease.OutQuint);
             countdownText.DOFade(0f, 0.5f) // Fade out the text
-                .OnComplete(() => ResetScale());
+                .OnComplete(() => ResetScale()).OnComplete(() => uEvent.Invoke()) ;
         }
     }
 
