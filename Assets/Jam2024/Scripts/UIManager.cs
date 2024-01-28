@@ -55,14 +55,11 @@ public class UIManager : MonoBehaviour
         {
             case Gimmicks.Hielo:
                 gimmickObjects[0].SetActive(true);
-                Debug.Log("SE LLAMA");
                 break;
             case Gimmicks.Borracho:
-                Debug.Log("SE LLAMA");
                 gimmickObjects[1].SetActive(true);
                 break;
             case Gimmicks.Disco:
-                Debug.Log("SE LLAMA");
                 gimmickObjects[2].SetActive(true);
                 break;
         }
