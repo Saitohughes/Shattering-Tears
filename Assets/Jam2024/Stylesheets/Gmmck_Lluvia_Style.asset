@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   styles:
   - styleTag: lluvia
-    openingTag: <incr a=0.7><shake a=0.5>
-    closingTag: </shake></incr>
+    openingTag: <wave a=0.9>
+    closingTag: </wave>

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   styles:
   - styleTag: hielo
-    openingTag: <incr a=0.7><shake a=0.5>
+    openingTag: <incr a=0.7><shake a=0.8>
     closingTag: </shake></incr>

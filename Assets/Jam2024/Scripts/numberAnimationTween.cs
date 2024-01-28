@@ -6,7 +6,7 @@ using DG.Tweening;
 using Cinemachine;
 using UnityEngine.Events;
 
-public class CombinedAnimation : MonoBehaviour
+public class CountdownScript : MonoBehaviour
 {
     public TMP_Text countdownText;
     public CinemachineVirtualCamera virtualCamera;
@@ -64,14 +64,19 @@ public class CombinedAnimation : MonoBehaviour
             // Scale up the text without rotation for the last count
             countdownText.transform.DOScale(Vector3.one * 1.2f, 0.5f).SetEase(Ease.OutQuint);
             countdownText.DOFade(0f, 0.5f) // Fade out the text
-                .OnComplete(() => ResetScale()).OnComplete(() => uEvent.Invoke()) ;
+                .OnComplete(() => ResetScale()).OnComplete(() => Invoke("GimmickEvent",0.5f)) ;
         }
     }
 
+    private void GimmickEvent()
+    {
+        // Invoke the UnityEvent after the delay
+        uEvent.Invoke();
+    }
     void ResetScale()
     {
         // Reset the scale after scaling animation
-        countdownText.transform.DOScale(Vector3.one, 0.1f).SetEase(Ease.OutQuint);
+        countdownText.transform.DOScale(Vector3.one, 0.1f);
     }
 
     void ChangeFOV(float startFOV, float endFOV, float duration)

@@ -9,7 +9,8 @@ public class UIManager : MonoBehaviour
     {
         Hielo,
         Borracho,
-        Disco
+        Disco,
+        Lluvia
     }
 
     public Gimmicks currentGimmick;
@@ -61,6 +62,9 @@ public class UIManager : MonoBehaviour
                 break;
             case Gimmicks.Disco:
                 gimmickObjects[2].SetActive(true);
+                break;
+            case Gimmicks.Lluvia:
+                gimmickObjects[3].SetActive(true);
                 break;
         }
     }

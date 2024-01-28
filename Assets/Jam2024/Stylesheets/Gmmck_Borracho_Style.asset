@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   styles:
   - styleTag: borracho
-    openingTag: <incr><wiggle><swing>
+    openingTag: <incr a=0.9><wiggle a=0.1 w=0.9><swing a= 0.05 w=0.9>
     closingTag: </wiggle></swing></incr>
