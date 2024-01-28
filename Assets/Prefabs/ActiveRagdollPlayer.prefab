@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3548199447219551247}
   m_Layer: 0
   m_Name: Bomb
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6517290046448095867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -6.9850043e-14, w: 1}
-  m_LocalPosition: {x: 0.009, y: -0.151, z: 0.273}
+  m_LocalPosition: {x: 0.008, y: 0.272, z: 0.245}
   m_LocalScale: {x: 0.21297404, y: 0.21297404, z: 0.21297404}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 3738866462213637978}
   - component: {fileID: 4820944597491197329}
   - component: {fileID: 899827927583651129}
+  - component: {fileID: 2408883541661115040}
   m_Layer: 0
   m_Name: BombDetector
   m_TagString: Untagged
@@ -269,6 +270,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2408883541661115040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8214864506699400551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1856952f7e5ac47b70469e5f52d29b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8968406404399486968
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8968406404399486968}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9998624, z: -0, w: 0.01659228}
+  m_LocalRotation: {x: 0, y: 0.99986243, z: 0, w: 0.016588682}
   m_LocalPosition: {x: -3.1727073, y: 0.16799998, z: -7.7760463}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -318,9 +331,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
+  bombRender: {fileID: 0}
   _animatedAnimator: {fileID: 8833768612358833256}
   _physicalAnimator: {fileID: 595931132320406083}
   _movementSpeed: 300
+  _explosion: {fileID: 0}
   _physicaljoints:
   - {fileID: 4950550290996452273}
   - {fileID: 2083104049829448041}
