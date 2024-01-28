@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14162312, g: 0.3253057, b: 0.3661156, a: 1}
+  m_IndirectSpecularColor: {r: 0.14162312, g: 0.3253057, b: 0.36611557, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4430,6 +4430,63 @@ MonoBehaviour:
   useTypewriterWaitForDisappearances: 1
   disappearanceWaitTime: 1
   disappearanceSpeedMultiplier: 2
+--- !u!1001 &913665577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4118917507145385995, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_Name
+      value: PlayerInput (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219301453094177369, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18cab2e74b232d549a52968208c771d9, type: 3}
 --- !u!1 &948803403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,10 +4965,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 989622326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a4c8dfb2ccf254eb7874b9c42f885b, type: 3}
+  m_Script: {fileID: 11500000, guid: c27503f8e8f1f2b49b5aa906867c87e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 3
   playerIndex: 0
 --- !u!143 &989622329
 CharacterController:
@@ -5174,7 +5231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: 0}
+  m_Actions: {fileID: -944628639613478452, guid: 75543b3c34b101b48ad5bed552381f61, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -5189,7 +5246,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &1175848434
@@ -6277,7 +6334,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 4118917507145385995, guid: 1b6dd7aa661624c49ad310c4b795c4c6, type: 3}
+  m_PlayerPrefab: {fileID: 1175848432}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
@@ -7235,3 +7292,4 @@ SceneRoots:
   - {fileID: 91950044}
   - {fileID: 1887607635}
   - {fileID: 1201682948}
+  - {fileID: 913665577}

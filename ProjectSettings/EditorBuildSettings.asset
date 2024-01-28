@@ -5,17 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scn_menu.unity
     guid: b7a8e6a5eb55ad04582ce2a9ea0221e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scn_MainScene.unity
     guid: e3b8115337c209443b9079891185dfdd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scn_Dead.unity
     guid: f3c8048440a1dfe49afedd38ab5f29ac
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scn_Victoria.unity
     guid: 696d9ccec3c7c98479c0e3d548c9bd9f
+  - enabled: 1
+    path: Assets/Scenes/scn_HotPotato.unity
+    guid: 080bbd23d062c4f43b348a5adce806f8
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 95883e66ee5d78949872007d2a6da720, type: 2}
