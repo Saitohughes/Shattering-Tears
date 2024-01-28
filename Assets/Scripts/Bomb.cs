@@ -6,7 +6,7 @@ using UnityEngine;
 public class Bomb : MonoBehaviour
 {
     float _triggerTime;
-    float _explodeTime;
+ 
     bool _isActive;
     SoundPlayer _sound;
     
@@ -25,10 +25,10 @@ public class Bomb : MonoBehaviour
     {
         while (_isActive) 
         {
-            _triggerTime += 1 * Time.deltaTime;
+            _triggerTime -= 1 * Time.deltaTime;
 
             yield return null;
-            if (_triggerTime >=_explodeTime)
+            if (_triggerTime <=0)
             {
 
             }
