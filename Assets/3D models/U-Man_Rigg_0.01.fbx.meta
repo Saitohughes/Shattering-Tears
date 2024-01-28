@@ -16,8 +16,7 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'Head' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -25,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -83,157 +82,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: U-Man_Rigg_0.01(Clone)
-      parentName: 
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Uman_Mesh
-      parentName: U-Man_Rigg_0.01(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller9
-      parentName: U-Man_Rigg_0.01(Clone)
-      position: {x: -0.00506334, y: -0.16130914, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller8
-      parentName: Controller9
-      position: {x: -0.02102889, y: 0.26636598, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller7
-      parentName: Controller8
-      position: {x: 0.06308667, y: 0.30842373, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller4
-      parentName: Controller7
-      position: {x: -0.21136327, y: -0.118260644, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller5
-      parentName: Controller4
-      position: {x: -0.25466496, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller1
-      parentName: Controller7
-      position: {x: 0.19954273, y: -0.118260644, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller2
-      parentName: Controller1
-      position: {x: 0.2659062, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller11
-      parentName: Controller9
-      position: {x: -0.05732777, y: -0.0928776, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller13
-      parentName: Controller11
-      position: {x: -0.0032078074, y: -0.10873604, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller15
-      parentName: Controller13
-      position: {x: 0.0036430692, y: -0.1133519, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller10
-      parentName: Controller9
-      position: {x: 0.061194256, y: -0.0928776, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller12
-      parentName: Controller10
-      position: {x: 0.0035504864, y: -0.10873604, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Controller14
-      parentName: Controller12
-      position: {x: -0.0011685753, y: -0.1133519, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: joint3
-      parentName: U-Man_Rigg_0.01(Clone)
-      position: {x: -0.0019332655, y: 0.34383708, z: -2.7410353e-26}
-      rotation: {x: 0.48551083, y: 0.8742307, z: 0.000000008178562, w: 0.000000004542029}
-      scale: {x: 1.0000001, y: 1, z: 1.0000005}
-    - name: joint4
-      parentName: joint3
-      position: {x: -0.111188255, y: 0.0028563768, z: 0.0000000011315322}
-      rotation: {x: 1.110223e-16, y: -6.661338e-16, z: 0.2591388, w: 0.9658401}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
-    - name: joint5
-      parentName: joint4
-      position: {x: -0.10879399, y: -1.687539e-16, z: -1.0575327e-10}
-      rotation: {x: -0.99976945, y: -0.021473156, z: -2.2668688e-10, w: -0.000000010554413}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
-    - name: joint6
-      parentName: joint5
-      position: {x: -0.11335792, y: -2.220446e-16, z: 2.1254713e-10}
-      rotation: {x: 0.000000007425847, y: 0.000000007502799, z: -0.7034527, w: 0.7107422}
-      scale: {x: 0.99999994, y: 1, z: 1}
-    - name: joint7
-      parentName: joint3
-      position: {x: -0.048542432, y: -0.0977566, z: -0.0000000013583854}
-      rotation: {x: -1.9984014e-15, y: -2.220446e-16, z: 0.2591388, w: 0.9658401}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
-    - name: joint5
-      parentName: joint7
-      position: {x: -0.10857344, y: -0.006754693, z: -2.477319e-10}
-      rotation: {x: -0.99976945, y: -0.021473156, z: -2.2669079e-10, w: -0.000000010554412}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
-    - name: joint6
-      parentName: joint5
-      position: {x: -0.11330831, y: -0.0048113903, z: 9.877545e-12}
-      rotation: {x: 0.0000000074258493, y: 0.0000000075027975, z: -0.7034527, w: 0.7107422}
-      scale: {x: 0.99999994, y: 1, z: 1}
-    - name: joint2
-      parentName: joint3
-      position: {x: 0.23723222, y: 0.12293861, z: 0.0000000023002191}
-      rotation: {x: 8.881784e-16, y: -0, z: 0.23678836, w: 0.97156125}
-      scale: {x: 1.0000001, y: 1, z: 1.0000002}
-    - name: joint1
-      parentName: joint2
-      position: {x: 0.30250198, y: 0.08716471, z: 0.000000004052167}
-      rotation: {x: -0.9901778, y: -0.13981356, z: 9.492722e-10, w: 0.000000006722867}
-      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
-    - name: joint11
-      parentName: joint1
-      position: {x: -0.07587409, y: -0.21919397, z: 9.766361e-10}
-      rotation: {x: 0.6322988, y: 0.7747246, z: 8.154939e-10, w: -9.991854e-10}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: joint12
-      parentName: joint11
-      position: {x: -0.26590624, y: -2.344791e-15, z: -3.256413e-17}
-      rotation: {x: -3.4972027e-15, y: 2.6090243e-15, z: 0.002924085, w: 0.99999577}
-      scale: {x: 1.0000004, y: 1, z: 1.0000005}
-    - name: joint13
-      parentName: joint12
-      position: {x: -0.27896163, y: -1.7408296e-15, z: -3.4162364e-17}
-      rotation: {x: -0.002924085, y: -0.99999577, z: -5.1623677e-15, w: -2.6694049e-15}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1}
-    - name: joint8
-      parentName: joint1
-      position: {x: -0.15823536, y: 0.18337324, z: 0.0000000020367736}
-      rotation: {x: 1.7763568e-15, y: -5.551115e-16, z: -0.6322988, w: 0.7747246}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: joint9
-      parentName: joint8
-      position: {x: -0.25466496, y: -3.907985e-16, z: -1.2845092e-11}
-      rotation: {x: -6.828802e-16, y: -1.2681081e-15, z: 0.0025124848, w: 0.9999969}
-      scale: {x: 1, y: 1, z: 1}
-    - name: joint10
-      parentName: joint9
-      position: {x: -0.273386, y: -1.7763567e-16, z: 1.0058516e-23}
-      rotation: {x: 6.828802e-16, y: 1.2681081e-15, z: -0.0025124848, w: 0.9999969}
-      scale: {x: 1, y: 0.99999994, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -250,7 +99,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

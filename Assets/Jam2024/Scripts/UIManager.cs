@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using MoreMountains;
+using MoreMountains.Feedbacks;
 
 public class UIManager : MonoBehaviour
 {
@@ -17,6 +19,13 @@ public class UIManager : MonoBehaviour
     public GameObject[] gimmickObjects;
     public GameObject countdown;
     //public TMP_Text scoreText;
+
+    [Header("Feedbacks")]
+
+    public MMF_Player borrachoFeedback;
+    public MMF_Player hieloFeedback;
+    public MMF_Player discoFeedback;
+    public MMF_Player lluviaFeedback;
 
     public static UIManager Instance;
 
@@ -56,15 +65,19 @@ public class UIManager : MonoBehaviour
         {
             case Gimmicks.Hielo:
                 gimmickObjects[0].SetActive(true);
+                hieloFeedback?.PlayFeedbacks();
                 break;
             case Gimmicks.Borracho:
                 gimmickObjects[1].SetActive(true);
+                borrachoFeedback?.PlayFeedbacks();
                 break;
             case Gimmicks.Disco:
                 gimmickObjects[2].SetActive(true);
+                discoFeedback?.PlayFeedbacks();
                 break;
             case Gimmicks.Lluvia:
                 gimmickObjects[3].SetActive(true);
+                lluviaFeedback?.PlayFeedbacks();
                 break;
         }
     }
