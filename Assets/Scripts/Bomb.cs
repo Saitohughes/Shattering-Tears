@@ -8,8 +8,10 @@ public class Bomb : MonoBehaviour
     float _triggerTime;
  
     bool _isActive;
-    SoundPlayer _sound;
-    
+    AudioSource _sound;
+
+    public AudioSource Sound { get => _sound; set => _sound = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class Bomb : MonoBehaviour
             yield return null;
             if (_triggerTime <=0)
             {
-
+                GetComponentInParent<UManPlayerController>().Dead();
             }
         }
         yield return null;
@@ -39,6 +41,7 @@ public class Bomb : MonoBehaviour
     {
         _triggerTime = time;
         _isActive = true;
-        _sound.Play();
+        Sound.Play();
+        StartCoroutine(TriggerBomb());  
     }
 }

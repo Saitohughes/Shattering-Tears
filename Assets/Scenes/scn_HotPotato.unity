@@ -695,6 +695,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1595820442}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1100885472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8214864506699400551, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+  m_PrefabInstance: {fileID: 4719679261596775193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1100885477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100885472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1856952f7e5ac47b70469e5f52d29b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1246719770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1167,7 @@ MonoBehaviour:
   _plates: []
   _actualState: 0
   roundTime: 0
+  _bombSound: {fileID: 0}
 --- !u!4 &1968969301
 Transform:
   m_ObjectHideFlags: 0
@@ -1304,6 +1322,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4543363831080893728, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543363831080893728, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.272
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543363831080893728, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517290046448095867, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      propertyPath: m_TagString
+      value: Bomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 8214864506699400551, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8968406404399486968, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
       propertyPath: m_Name
       value: ActiveRagdollPlayer
@@ -1311,7 +1349,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8214864506699400551, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1100885477}
   m_SourcePrefab: {fileID: 100100000, guid: 4c382ab7c5409404ea5cce8dd480cdfc, type: 3}
 --- !u!1001 &7320400280967127425
 PrefabInstance:

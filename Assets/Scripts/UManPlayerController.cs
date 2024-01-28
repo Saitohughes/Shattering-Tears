@@ -11,6 +11,8 @@ public class UManPlayerController : MonoBehaviour
     float Score;
     Rigidbody[] _allrigidbodies;
     [SerializeField]
+    GameObject bombRender;
+    [SerializeField]
     Animator _animatedAnimator,_physicalAnimator;
     Rigidbody _physicalHips;
     Transform _animatedHips;
@@ -18,8 +20,11 @@ public class UManPlayerController : MonoBehaviour
     [Header("Fisica")]
     [SerializeField]
     float _movementSpeed;
+    float _originalSpeed;
     Vector3 _forceDirection=Vector3.zero;
 
+    [SerializeField]
+    ParticleSystem _explosion;
 
 
     [SerializeField]
@@ -31,13 +36,13 @@ public class UManPlayerController : MonoBehaviour
 
     //inputActions
     ActiveRagdollActions _activeRagdollActions;
-    
-   
-   
+
+    public GameObject BombRender { get => bombRender; set => bombRender = value; }
+
     private void Awake()
     {
         _activeRagdollActions = new ActiveRagdollActions();
-
+        _originalSpeed = _movementSpeed;
 
        
  
@@ -93,12 +98,26 @@ public class UManPlayerController : MonoBehaviour
     {
        
     }
-
-    public void PutBomb(UManPlayerController victim)
+    public void Dead()
     {
-        victim.AddComponent<Bomb>();
+        _explosion.Play();
 
     }
+    public void ReceiveBomb()
+    {
+        _movementSpeed = 0;
+        LeanTween.delayedCall(1.5f, ResetProperties);
+    }
+    public void ResetProperties()
+    {
+        _movementSpeed = _originalSpeed;
+    }
+    public void SendBomb()
+    {
+        _movementSpeed = _originalSpeed * 1.2f;
+        LeanTween.delayedCall(1.5f, ResetProperties);
+    }
+
     public void UpdateAnim()
     {
         for (int i = 0; i < _physicaljoints.Length; i++)
