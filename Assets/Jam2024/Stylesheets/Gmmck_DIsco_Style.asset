@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   styles:
   - styleTag: disco
-    openingTag: <rainb><wave>
-    closingTag: </rainb></wave>
+    openingTag: <wave>
+    closingTag: </wave>
