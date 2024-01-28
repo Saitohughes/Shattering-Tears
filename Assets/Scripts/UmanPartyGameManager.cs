@@ -42,6 +42,10 @@ public class UmanPartyGameManager : MonoBehaviour
     
     }
 
+    public void CreateGrid()
+    {
+
+    }
 
     // Start is called before the first frame update
     void Start()
