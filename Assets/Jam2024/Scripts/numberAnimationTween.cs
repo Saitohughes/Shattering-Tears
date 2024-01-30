@@ -45,7 +45,7 @@ public class CountdownScript : MonoBehaviour
             countdownText.text = seconds.ToString();
 
             // Rotation, scaling, and punch scale animations
-            countdownText.transform.DORotate(new Vector3(0, 0, 360), 0.5f, RotateMode.FastBeyond360).SetEase(Ease.OutBack);
+            countdownText.transform.DORotate(new Vector3(0, 180, 360), 0.5f, RotateMode.FastBeyond360).SetEase(Ease.OutBack);
             countdownText.transform.DOScale(Vector3.one * 1.5f, 0.5f).SetEase(Ease.OutBack).OnComplete(() => ResetScale());
             countdownText.transform.DOPunchScale(Vector3.one * 0.2f, 0.5f); // Add a punch effect
 
@@ -59,7 +59,7 @@ public class CountdownScript : MonoBehaviour
         else
         {
             // Countdown is complete
-            countdownText.text = "YA!!!";
+            countdownText.text = "GO!!!";
 
             // Scale up the text without rotation for the last count
             countdownText.transform.DOScale(Vector3.one * 1.2f, 0.5f).SetEase(Ease.OutQuint);
